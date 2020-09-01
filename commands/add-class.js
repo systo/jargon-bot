@@ -17,7 +17,7 @@ module.exports = {
 
 		console.log(args);
 
-		let role = message.guild.roles.cache.find(r => r.name === args[0]);
+		let role = message.guild.roles.cache.find(r => r.name === args[0].toUpperCase());
 
 		member.roles.add(role).catch(console.error);
 		message.reply(`${role} class role added for ya.`);
