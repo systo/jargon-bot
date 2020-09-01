@@ -1,0 +1,15 @@
+{
+  "name": "jargon-file-bot",
+  "version": "0.1.0",
+  "description": "Named after the jargon file, a bot for the Normandale Prog Discord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "systo",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "eslint": "^7.8.0"
+  }
+}
