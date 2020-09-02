@@ -1,8 +1,9 @@
-const fs = require('fs');
+require('dotenv').config();
+// const fs = require('fs');
 const Discord = require('discord.js');
-const config = require('./config.json');
+// const config = require('./config.json');
 // Easy change command prefix here.
-const prefix = process.env.prefix || config.prefix || '!';
+const prefix = process.env.PREFIX || '!';
 
 const client = new Discord.Client();
 client.commands = new Discord.Collection();
@@ -75,6 +76,6 @@ client.on('message', message => {
 });
 
 // actually login to the server
-const TOKEN = process.env.BOT_TOKEN || config.BOT_TOKEN;
+const TOKEN = process.env.BOT_TOKEN;
 client.login(TOKEN);
 
