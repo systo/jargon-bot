@@ -1,6 +1,7 @@
 {
   "name": "jargon-file-bot",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "private": true,
   "description": "Named after the jargon file, a bot for the Normandale Prog Discord",
   "main": "index.js",
   "engines": {
@@ -12,10 +13,14 @@
     "start": "node index.js"
   },
   "author": "systo",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/systo/jargon-bot.git"
+  },
   "license": "BSD-2-Clause",
   "dependencies": {
     "discord.js": "^12.3.1",
     "dotenv": "^8.2.0",
-    "eslint": "^7.8.0"
+    "eslint": "^7.9.0"
   }
 }
