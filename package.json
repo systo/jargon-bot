@@ -5,8 +5,7 @@
   "description": "Named after the jargon file, a bot for the Normandale Prog Discord",
   "main": "index.js",
   "engines": {
-    "node": "14.x",
-    "npm": "*"
+    "node": "14.x"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
